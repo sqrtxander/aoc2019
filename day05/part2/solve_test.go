@@ -9,7 +9,7 @@ var INPUT string = `
 var EXPECTED int = 999
 
 func TestSolve(t *testing.T) {
-	actual := solve(INPUT, 7)
+	actual := solve(INPUT)
 	if actual != EXPECTED {
 		t.Fatalf("Expected %d got %d\n", EXPECTED, actual)
 	}
